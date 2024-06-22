@@ -1,0 +1,28 @@
+/*搜索框6*/
+.bar6 {
+    background:#ffffff;
+    display: inline-block;
+}
+
+.bar6 input {
+    border: 2px solid #ff6633;
+    width: 300px;
+    margin: 20px 0 0 0px;
+    height: 40px;
+    display: inline-block;
+}
+
+.bar6 button {
+    background: #ff6633;
+    width: 80px;
+    margin: 20px 0 0 0px;
+    height: 44px;
+    display: inline-block;
+}
+
+.bar6 button:before {
+    content: "搜索";
+    font-size: 13px;
+    color: #ffffff;
+    display: inline-block;
+}

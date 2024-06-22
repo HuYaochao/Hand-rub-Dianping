@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-bar{
+    height: 20px;
+    width: 100%;
+    background: #f6f6f6;
+
+}
+.header{
+    
+    background: #ffffff;
+}
+.head-content-box{
+    height: 120px;
+    width: 1200px;
+    border: 2px solid rgb(101, 39, 39);
+    margin: 0 auto;
+}
+
+.logo-search-box{
+    height: 140px;
+    width: 1200px;
+}
+.log-box{
+    height: 50px;
+    width: 400px;
+    margin: 20px 0 0 0px;
+    background-image:url("../img/logo.png") ;
+    background-repeat: no-repeat;
+    background-size: 210px 50px;
+    display: inline-block;
+}
+.search-box{
+    height: 50px;
+    width: 400px;
+    margin: 20px 0 0 20px;
+    display: inline-block;
+}
+
+
+
+
+.header-top-box{
+    height: 20px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.right-box{
+    display: inline-block;
+    float: right;
+    position: relative;
+    margin-right: 10px;
+}
+
+.cate-nav{
+    height: 700px;
+    width: 250px;
+    border: 2px solid black;
+    display: inline-block;
+}
+.main-index{
+    height: 3000px;
+    width: 1200px;
+    border: 2px solid rgb(101, 39, 39);
+    margin: 0 auto;  
+}
+.carousel{
+    height: 365px;
+    width: 700px;
+    border: 2px solid black;
+    display: inline-block;
+    
+}
+.hot{
+    height: 320px;
+    width: 700px;
+    border: 2px solid black;
+    display: inline-block;
+    position: relative;
+}
+.user{
+    height: 700px;
+    width: 220px;
+    border: 2px solid black;
+    display: inline-block;
+}
+.middle{
+    height: 630px;
+    width: 710px;
+    display: inline-block;
+    flex-direction: column;
+        /* 垂直排列 */
+    align-items: center;
+        /* 水平居中 */
+    position: relative;
+    
+}
+
+.middle-box{
+    height: 450px;
+    width: 590px;
+    border: 2px solid black;
+    display: inline-block;
+    
+}
+
+.long-big-box{
+    height: 550px;
+    width: 1190px;
+    border: 2px solid black;
+}
+
+.long-small-box{
+    height: 250px;
+    width: 1190px;
+    border: 2px solid black;
+}
+
