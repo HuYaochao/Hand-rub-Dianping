@@ -7,17 +7,21 @@
 .bar6 input {
     border: 2px solid #ff6633;
     width: 300px;
-    margin: 20px 0 0 0px;
     height: 40px;
+    margin-bottom: 25px;
     display: inline-block;
+    vertical-align: middle;
 }
 
 .bar6 button {
     background: #ff6633;
-    width: 80px;
-    margin: 20px 0 0 0px;
+    width: 100px;
     height: 44px;
+    margin-bottom: 25px;
     display: inline-block;
+    vertical-align: middle;
+    margin-left: -5px;
+    border-color: #ff6633;
 }
 
 .bar6 button:before {

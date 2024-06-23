@@ -9,18 +9,33 @@
 
 }
 .header{
-    
     background: #ffffff;
 }
 .head-content-box{
-    height: 120px;
+    height: 130px;
     width: 1200px;
-    border: 2px solid rgb(101, 39, 39);
     margin: 0 auto;
+}
+.all-categories{
+    width: 250px;
+    height: 30px;
+    background: #ff6633;
+    color: #ffffff;
+    padding: 5px 0px 0px 5px;
+        /* 上, 右, 下, 左 */
+    display: inline-block;
+    font-weight: bold;
+}
+.booking-seat{
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
 }
 
 .logo-search-box{
-    height: 140px;
+    height: 100px;
     width: 1200px;
 }
 .log-box{
@@ -38,9 +53,6 @@
     margin: 20px 0 0 20px;
     display: inline-block;
 }
-
-
-
 
 .header-top-box{
     height: 20px;
