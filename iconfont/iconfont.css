@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4598473 */
+  src: url('iconfont.woff2?t=1719301892751') format('woff2'),
+       url('iconfont.woff?t=1719301892751') format('woff'),
+       url('iconfont.ttf?t=1719301892751') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-liren:before {
+  content: "\e60b";
+}
+
+.icon-dingwei:before {
+  content: "\e633";
+}
+
+.icon-sousuoremenfenlei:before {
+  content: "\e627";
+}
+
+.icon-yonghutouxiang:before {
+  content: "\e600";
+  font-size: 150px;
+  color:#ff6633;
+  height: 150px;
+  display: block;
+}
+
+.icon-VIP:before {
+  content: "\e69d";
+}
+
+.icon-ditie-xianxing:before {
+  content: "\e941";
+}
+
+.icon-VIP1:before {
+  content: "\e64b";
+}
+
+.icon-meishi:before {
+  content: "\e631";
+}
+
+.icon-xuexipeixun:before {
+  content: "\e618";
+}
+
+.icon--map:before {
+  content: "\e7c0";
+}
+
+.icon-jiehunzhao:before {
+  content: "\e651";
+}
+
+.icon-hotel:before {
+  content: "\e63f";
+}
+
+.icon-qinziyou:before {
+  content: "\e619";
+}
+
+.icon-shenghuofuwu:before {
+  content: "\e617";
+}
+
+.icon-jiazhuang:before {
+  content: "\e649";
+}
+
+.icon-xiuxianyule-copy:before {
+  content: "\e601";
+}
+

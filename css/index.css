@@ -90,14 +90,36 @@
     width: 700px;
     border: 2px solid black;
     display: inline-block;
-    position: relative;
+    
 }
 .user{
     height: 700px;
     width: 220px;
     border: 2px solid black;
     display: inline-block;
+    float:right;
+    margin-right: 5px;
+    margin-top: 2px;
+    
 }
+.user-content{
+    height: 700px;
+    width: 220px;
+    display: block;
+    text-align: center;
+}
+.user-avatar{
+    height: 200px;
+    width: 220px;
+    display: block;
+}
+.user-info{
+    height:500px;
+    width: 220px;
+    display: block;
+}
+
+
 .middle{
     height: 630px;
     width: 710px;
@@ -106,7 +128,7 @@
         /* 垂直排列 */
     align-items: center;
         /* 水平居中 */
-    position: relative;
+    
     
 }
 
