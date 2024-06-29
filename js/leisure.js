@@ -1,4 +1,5 @@
-window.onload = function () {
+// 冲突的 JavaScript 操作：你的代码可能在 window.onload 事件中执行，而其他脚本可能也在 window.onload 事件中执行，导致冲突。
+document.addEventListener('DOMContentLoaded', function () {
     var info = [
         {
             name: "泉溪温泉生活馆",
@@ -26,7 +27,7 @@ window.onload = function () {
         },
     ];
 
-    var fileListUl = document.querySelector('.fileList');
+    var fileListUl = document.querySelector('.fileList'); // 使用唯一ID
 
     for (var i = 0; i < info.length; i++) {
         var li = document.createElement("li");
@@ -47,4 +48,4 @@ window.onload = function () {
         li.appendChild(p);
         fileListUl.appendChild(li);
     }
-}
+});
