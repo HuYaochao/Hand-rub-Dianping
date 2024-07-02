@@ -13,6 +13,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 .icon-liren:before {
   content: "\e60b";
 }
@@ -47,6 +49,8 @@
 
 .icon-meishi:before {
   content: "\e631";
+  font-size: 30px;
+  color: #ff6633;
 }
 
 .icon-xuexipeixun:before {

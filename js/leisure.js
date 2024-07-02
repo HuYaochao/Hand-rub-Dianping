@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
     ];
 
-    var fileListUl = document.querySelector('.fileList'); // 使用唯一ID
+    var fileListUl = document.querySelector('.fileList'); 
 
     for (var i = 0; i < info.length; i++) {
         var li = document.createElement("li");
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
         img.src = info[i].url;
 
         img.style.width = "175px"; // 设置图片宽度
-        img.style.height = "160px"; // 设置图片高度
+        img.style.height = "150px"; // 设置图片高度
         var p = document.createElement("p");
         
         p.innerHTML = info[i].name;
